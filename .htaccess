@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>  
+ErrorDocument 404 /404.html
+ RewriteEngine on   
+
+ RewriteRule ^([0-9]+)$ index\.php\?rid=$1
+ #RewriteRule ^request.php(.*?) ajax\.php$1
+ RewriteRule room/inputroom$  room/inputroom.html 
+</IfModule>

@@ -1,0 +1,128 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	background-color:#b54c4c;
+	
+	background-repeat: repeat;
+	background-position: right -90px;
+}
+.lts {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 100%;
+}
+.lts .main {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+	height: 100%;
+	color: #FFFFFF;
+}
+.lts .main .main1 {
+	float: left;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.lts .main .main1 ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.lts .main .main1 li {
+    float: left;
+    width: 31%;
+    font-size: 12px;
+    margin: 14px 4px 12px;
+    padding: 3px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 30px;
+    height: 37px;
+    border: 1px solid #f1362f;
+    background-color: transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.lts .main .main1 li:nth-child(4), .lts .main .main1 li:nth-child(5) {
+	margin-top: 0px;
+}
+@media (min-width: 500px) {
+	.lts .main .main1 li {
+		width: 19%;
+	    margin: 14px 2px 12px 3px;
+	    padding: 3px;
+	}
+	.lts .main .main1 li:nth-child(4), .lts .main .main1 li:nth-child(5) {
+		margin-top: 14px;
+	}
+}
+.bjli {
+	background-color: #24124E;
+}
+
+.lts .main .main1 a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+.lts .main .main1 li:hover {
+    border: 1px solid #303030;
+    background: #303030;
+    color: #fff
+}
+
+
+.lts .main .main2 {
+	float: left;
+	height: 99%;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.lts .main #cqsscdt {
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-image: url(../img/logoa.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+#plandt div{
+	color:#FFFFFF!important;
+	font-size:14px!important;
+	text-align:center;
+	font-weight: bold;
+
+}
+
+.smbox{ width:300px; text-align:center; color:#fff; margin:0 auto;}
+
+.clbox{ width:90%; margin:0 auto;}
+.clbox tr{ height:40px; background:#048a61; border-bottom:#FFF dotted 1px;}
+.clbox td{ width:16%;}
+
+
+.cqssc-nums { width:295px; margin:0 auto; margin-top:10px;}
+.cqssc-nums span {width: 48px; height: 48px; float: left; margin-right: 5px; margin-left: 5px; background:url(../images/blue.png) no-repeat; font-family: Tahoma; line-height: 48px; text-align: center; font-size: 16px; font-weight: bold; color: #000; padding-top:2px; padding-left:1px;}
+px;}
+px;}

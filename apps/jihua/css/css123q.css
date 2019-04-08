@@ -1,0 +1,123 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	background-image: url(../img/bodybg.jpg);
+	background-repeat: repeat;
+	background-position: right -90px;
+}
+.lts {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 520px;
+}
+.lts .main {
+	width: 500px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+	height: 520px;
+	color: #FFFFFF;
+}
+.lts .main .main1 {
+	float: left;
+	width: 470px;
+	margin: 0px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.lts .main .main1 ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.lts .main .main1 li {
+	float: left;
+	width: 88px;
+	font-size: 12px;
+	margin: 2px;
+	padding: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFCC00;
+	border-right-color: #FF3300;
+	border-bottom-color: #000000;
+	border-left-color: #CC0000;
+	font-weight: normal;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+}
+.bjli {
+	background-color: #24124E;
+}
+
+.lts .main .main1 a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+.lts .main .main1 a:hover {
+	color: #FFFF00;
+	background-color: #4C249F;
+	display: block;
+}
+
+
+.lts .main .main2 {
+	float: left;
+	height: 520px;
+	width: 470px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.lts .main #cqsscdt {
+	float: left;
+	width: 470px;
+	text-align: center;
+	background-image: url(../img/logoa.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+#plandt div{
+	color:#FFFFFF!important;
+	font-size:14px!important;
+	text-align:center;
+	font-weight: bold;
+
+}
+
+.smbox{ width:300px; text-align:center; color:#fff; margin:0 auto;}
+
+.clbox{ width:90%; margin:0 auto;}
+.clbox tr{ height:40px; background:#048a61; border-bottom:#FFF dotted 1px;}
+.clbox td{ width:16%;}
+
+
+.cqssc-nums { width:295px; margin:0 auto; margin-top:10px;}
+.cqssc-nums span {width: 48px; height: 48px; float: left; margin-right: 5px; margin-left: 5px; background:url(../images/blue.png) no-repeat; font-family: Tahoma; line-height: 48px; text-align: center; font-size: 16px; font-weight: bold; color: #000; padding-top:2px; padding-left:1px;}
+px;}
+px;}

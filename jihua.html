@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<title>彩票计划聊天室</title>
+<meta  name="keywords" content="cconline聊天室">
+<meta  name="description" content="cconline聊天室">
+<link rel="shortcut icon" href="http://www.chat500.com/favicon.ico">
+<link rel="stylesheet" type="text/css" href="http://www.chat500.com/css/css.css?v=1" />
+
+
+<script src="http://www.chat500.com/room/script/jquery.min.js"></script>
+<script src="http://www.chat500.com/static/layui/lay/modules/layer.js"></script>
+<script src="http://www.chat500.com/room/script/jquery.nicescroll.min.js"></script>
+
+<script src="http://www.chat500.com/room/script/function.js?v=1" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.chat500.com/room/script/init.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script type="text/javascript" src="http://www.chat500.com/js/main.js"></script>
+</head>
+
+<li class="on"><span id="OnlineUserNum"></span></li>
+					<link rel="stylesheet" href="http://www.chat500.com/css/swiper.min.css">
+<script src="http://www.chat500.com/js/swiper.min.js"></script>
+            		<div class="swiper-container plan_tit">
+						<ul class="swiper-wrapper" id="column">
+							<li class="swiper-slide  on">北京PK10</li>
+							<li class="swiper-slide">重庆时时彩</li>
+							<li class="swiper-slide">江西时时彩</li>
+							<li class="swiper-slide">新疆时时彩</li>
+							<li class="swiper-slide">山东十一选五</li>
+							<li class="swiper-slide">广东十一选五</li>
+						</ul>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div></div>
+<script>
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 'auto',
+  spaceBetween: 0,
+  navigation: {
+	nextEl: '.swiper-button-next',
+	prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+            		<div class="plan_nav" id="plan_nav">
+						<ul>
+							<div class="clear"></div>
+						</ul>
+						<div class="more" id="more" style="display: none">更多<i></i></div>
+						<div class="more_up">收起<i></i></div></div>
+					<div class="plan_con" id="plan_con"></div>
+      <!--右侧内容e-->
+ <script>
+function cookieGO(name) { 
+ var today = new Date(); 
+ var expires = new Date(); 
+ expires.setTime(today.getTime() + 1000*60*60*24); 
+ setCookie("cookievalue", name, expires); 
+} 
+	var	MsgBoxtoggleScroll = false;	
+	$(document).ready(function (){
+    var nScrollHight = 0; 
+    var nScrollTop = 0; 
+    var nDivHight = $("#chat_main").height();
+		
+    $("#chat_main").scroll(function(){
+     nScrollHight = $(this)[0].scrollHeight;
+     nScrollTop = $(this)[0].scrollTop;
+		
+		/*alert(nScrollTop + nDivHight );
+		alert(nScrollHight);*/
+     if((nScrollTop + nDivHight+100) >= nScrollHight){
+		 
+		 	MsgBoxtoggleScroll = true;
+	
+		}else{
+			MsgBoxtoggleScroll = false;	
+			
+			}
+     })
+   });
+OnInit();
+$(function(){
+  $(".topbox .topl .item").hover(function(){
+	  $(this).children('.m').show();
+  },function(){
+	  $(this).children('.m').hide();
+  });
+
+  $(".topbox .topuser").hover(function(){
+	  $(this).children('.m').show();
+  },function(){
+	  $(this).children('.m').hide();
+  });
+  
+  $(".index_l_tit ul li").click(function(){
+    $(this).addClass("on").siblings().removeClass("on");
+	$(".index_l_con").children(".index_l_box:eq("+$(this).index()+")").css("display","block").siblings(".index_l_box").css("display","none");
+	$("#OnLineUser_OhterList").show();
+  });
+  
+  $(".left_bar_clo").click(function(){
+	$(this).hide();
+	$(".left_bar_open").show();
+	$(".index_l").hide();
+	$(".index_wrap").css("padding-left","0px");
+  });
+  
+  $(".left_bar_open").click(function(){
+	$(this).hide();
+	$(".left_bar_clo").show();
+	$(".index_l").show();
+	$(".index_wrap").css("padding-left","216px");
+  });
+  
+  $(".index_r_tit ul li").click(function(){
+    $(this).addClass("on").siblings().removeClass("on");
+	$(".index_r_con").children(".index_r_box:eq("+$(this).index()+")").css("display","block").siblings(".index_r_box").css("display","none");
+	  
+	  if($(this).index()){
+		  $("#column li:eq(0)").addClass("on").siblings().removeClass("on");
+		  $.plan.Init(1);
+		}
+  });
+	
+$(".swiper-container ul li").click(function(){ 
+			$.plan.Init($(this).index()+1);
+  });
+  
+  $(".plan_tit ul li").click(function(){
+    $(this).addClass("on").siblings().removeClass("on");
+	$(".plan_nav .more_up").click();
+  });
+  
+  $(".plan_nav .more").click(function(){
+    $(".plan_nav").addClass("plan_navs");
+  });
+  
+  $(".plan_nav .more_up").click(function(){
+    $(".plan_nav").removeClass("plan_navs");
+  });
+	
+	var c = getCookie("cookievalue"); 
+	  if (c!= null) { 
+	   	$("#popup_red_wrap").hide();
+		$("#hotimg").hide();
+	  } 
+	 cookieGO("getcookie");
+	setInterval('cconline()',1800000);
+	cconline();
+	$(window).click(function(){
+		MsgCAlert();
+	});	
+});
+ </script>
+      <!--右侧内容e-->
+<script src="http://www.chat500.com/room/script/plan.js"></script>
+
+</body>
+</html>
